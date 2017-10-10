@@ -9,7 +9,7 @@ body {
 
 #main-container {
   height: 100vh;
-  max-width: 768px;
+  max-width: 576px;
   padding: 50px;
 }
 
@@ -27,6 +27,11 @@ body {
   text-decoration: underline;
 }
 
-.input {
+input {
+  font-size: 13px;
   letter-spacing: 2px;
+  min-width: 220px;
+  :focus {
+    box-shadow: none !important;
+  }
 }

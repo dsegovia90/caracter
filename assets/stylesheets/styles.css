@@ -6,7 +6,7 @@ body {
 
 #main-container {
   height: 100vh;
-  max-width: 768px;
+  max-width: 576px;
   padding: 50px; }
 
 .row {
@@ -18,7 +18,11 @@ body {
 .underlined {
   text-decoration: underline; }
 
-.input {
-  letter-spacing: 2px; }
+input {
+  font-size: 13px;
+  letter-spacing: 2px;
+  min-width: 220px; }
+  input :focus {
+    box-shadow: none !important; }
 
 /*# sourceMappingURL=styles.css.map */
