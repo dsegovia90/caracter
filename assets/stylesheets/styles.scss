@@ -1,6 +1,11 @@
 @font-face {
 	font-family: Apercu-Light;
-	src: url('../fonts/Apercu-Light.otf');
+  src: url('../fonts/Apercu-Light.otf');
+}
+
+@font-face {
+  font-family: EyechartBold;
+  src: url('../fonts/EyechartBold-Bold.otf')
 }
 
 body {
@@ -34,4 +39,8 @@ input {
   font-size: 13px;
   letter-spacing: 2px;
   min-width: 220px;
+}
+
+#bottom-row {
+  font-family: EyechartBold;
 }
