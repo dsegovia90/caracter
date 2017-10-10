@@ -15,7 +15,8 @@ body {
 #top-row {
   padding-right: 0; }
   #top-row img {
-    width: 100%; }
+    width: 100%;
+    border-right: 1px solid black; }
 
 .underlined {
   text-decoration: underline; }
