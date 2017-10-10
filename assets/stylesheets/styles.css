@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Apercu-Light;
+  src: url("../fonts/Apercu-Light.otf"); }
+body {
+  font-family: Apercu-Light !important; }
+
+#main-container {
+  height: 100vh;
+  max-width: 768px;
+  padding: 50px; }
+
+.row {
+  height: 33.33%; }
+
+#top-row img {
+  width: 100%; }
+
+.underlined {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=styles.css.map */
