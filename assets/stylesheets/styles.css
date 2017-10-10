@@ -12,8 +12,10 @@ body {
 .row {
   height: 33.33%; }
 
-#top-row img {
-  width: 100%; }
+#top-row {
+  padding-right: 0; }
+  #top-row img {
+    width: 100%; }
 
 .underlined {
   text-decoration: underline; }
