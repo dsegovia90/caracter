@@ -5,6 +5,6 @@ setInterval(function(){
 }, 1000);
 
 window.onresize = function(){
-  document.getElementById('main-container').height = window.innerHeight;
+  document.getElementById('main-container').style.height = window.innerHeight;
 }
 window.onresize();
